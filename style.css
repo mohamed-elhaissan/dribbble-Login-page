@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,400&family=Quicksand:wght@400;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'poppins',  sans-serif ;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+video {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 100%;
+    position: absolute;
+    right: 30%;
+}
+.container {
+    background-color: white;
+    
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    width: 70%;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+.container .lol {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.container .lol2 {
+    margin-left: 20px;
+}
+label{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+@media (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        left: 0%;
+    }
+    video {
+        display: none;
+    }
+  }
+.inputs {
+    display: flex;
+    position: relative;
+    width: 20%;
+    margin: 50px;
+  
+    width: 100%;
+}
+.input {
+    position: relative;
+    top: 80%;
+    right: 10%;
+    padding: 15px 40px;
+    
+    border: 1.5px solid #c2cacd;
+    border-radius: 10px;
+    outline: none;
+}
+.input:hover {
+    box-shadow: 1px 1px 5px #48cae4;
+    cursor: pointer;
+    
+}
+.input:focus{
+    border: 2px solid #48cae4;
+}
+#username {
+    position: relative;
+    right: 16%;
+}
+.email {
+    margin:  40px 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 3%;
+    
+}
+.email input {
+    padding: 15px 40px;
+    
+    border: 1.5px solid #c2cacd;
+    border-radius: 10px;
+    width: 40%;
+}
+.email input:hover {
+    box-shadow: 1px 1px 5px #48cae4;
+    transition: all 1s ease;
+    
+}
+.Password {
+    margin:  40px 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 3%;
+}
+.Password input {
+    padding: 15px 40px;
+    
+    border: 1.5px solid #c2cacd;
+    border-radius: 10px;
+    width: 40%;
+    font-family: 'poppins' , sans-serif;
+}
+.check {
+    margin:  40px 50px;
+    display: flex;
+    
+    position: relative;
+    top: 3%;
+    
+}
+.check p {
+    font-size: 15px;
+    margin-left: 1px;
+    position: relative;
+    right: 76px;
+    
+}
+.check input {
+    width: 10%;
+    position: relative;
+    right: 45px;
+}
+.btn {
+    padding: 15px 90px;
+    border: none;
+    align-items: center;
+    position: relative;
+    left: 3%;
+    margin-top: 20px;
+    border-radius: 25px;
+    background-color: black;
+    width: 40%;
+    color: white;
+    font-family: 'poppins' , sans-serif;
+    font-size: 15px;
+    transition: all 1s ease;
+}
+.btn:hover{
+    background-color: #e5e5e5;
+    color: black;
+    transform: scale(1.02);
+    
+}
+.signup {
+    margin-top: 20px;
+    font-size: 15px;
+    width: 45%;
+    
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #48cae4;
+}

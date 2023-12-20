@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DribbLe | AlphaX</title>
+</head>
+<body>
+    <video src="30fd1f7b63806eff4db0d4276eb1ac45.mp4" id="myVideo" controls loop></video>
+    <div class="container">
+        <p class="lol">Your Google account Ayoub Will be connected To your new Dribble Account</p>
+        <p class="lol2">Wrong identity ? Start Over</p>
+        <div class="inputs">
+            <div class="hello"><label id="Name" class="he" for="Name">Name</label>
+            <input class="input" type="text" id="Name">
+            <label class="he"  for="Username">Username</label>
+            <input class="input" type="text" id="username"></div>
+        </div>
+        <div class="email">
+            <label for="email">Email</label>
+            <input type="email"  id="email">
+        </div>
+        <div class="Password">
+            <label for="email">Password</label>
+            <input type="Password"  id="ePassword" placeholder="6+ characters">
+        </div>
+        <div class="check">
+            <input class="custom" type="checkbox">
+            <p>I agree with dribbles <span>termes of service,privacy policy,</span>and default notification setting</p>
+            
+        </div>
+        <button class="btn">Create Account</button>
+        <div class="signup">
+            <p>Already have an account ? <a href="#">Sign in</a></p>
+
+        </div>
+    </div>
+    <script>
+        const video = document.getElementById("myVideo");
+        video.addEventListener("play", () => {
+          video.removeAttribute("controls");
+        });
+      </script>
+</body>
+</html>
